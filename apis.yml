@@ -1,0 +1,42 @@
+aid: aousd
+name: Alliance for OpenUSD
+description: >-
+  The Alliance for OpenUSD (AOUSD) is a Linux Foundation project dedicated to promoting interoperability of 3D content through Universal Scene Description (OpenUSD). Founded by Pixar, Adobe, Apple, Autodesk, and NVIDIA, it standardizes 3D ecosystems for film, gaming, architecture, and industrial design.
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - 3D
+  - Standards
+  - Metaverse
+  - Linux Foundation
+created: '2026-03-16'
+modified: '2026-03-16'
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/aousd/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+apis:
+  - aid: aousd:aousd-api
+    name: Alliance for OpenUSD API
+    description: >-
+      API for accessing Alliance for OpenUSD specifications, resources, and tools for 3D content interoperability through Universal Scene Description (OpenUSD).
+    humanURL: https://aousd.org/specifications/
+    tags:
+      - 3D
+      - Standards
+    properties:
+      - type: Documentation
+        url: https://aousd.org/specifications/
+common:
+  - type: Documentation
+    name: Alliance for OpenUSD Documentation
+    description: Official documentation for Alliance for OpenUSD.
+    url: https://aousd.org/specifications/
+  - type: GitHubOrg
+    name: Alliance for OpenUSD GitHub
+    description: Source code and repositories for Alliance for OpenUSD.
+    url: https://github.com/PixarAnimationStudios/OpenUSD
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
