@@ -1,0 +1,147 @@
+vocabulary: "1.0.0"
+
+info:
+  provider: Alliance for OpenUSD
+  description: >-
+    Vocabulary covering the OpenUSD specification and API including core
+    concepts, schema domains, file formats, composition arcs, and the
+    developer tooling ecosystem for Universal Scene Description.
+  created: "2026-04-19"
+  modified: "2026-04-19"
+
+operational:
+  apis:
+    - name: OpenUSD C++ API
+      namespace: openusd-cpp
+      version: "25.02"
+      baseUrl: https://openusd.org/release/api/index.html
+      status: active
+    - name: OpenUSD Python Bindings
+      namespace: openusd-python
+      version: "25.02"
+      baseUrl: https://pypi.org/project/usd-core/
+      status: active
+
+  resources:
+    - name: layers
+      description: USD layers — files or in-memory containers for scene description data.
+      apis: [openusd-cpp, openusd-python]
+      actions: [create, open, save, flatten, sublayer]
+    - name: prims
+      description: USD prims — named nodes in the scene hierarchy.
+      apis: [openusd-cpp, openusd-python]
+      actions: [create, get, define, override, delete, traverse]
+    - name: attributes
+      description: Typed, time-sampled data values on prims.
+      apis: [openusd-cpp, openusd-python]
+      actions: [create, get, set, clear, block]
+    - name: relationships
+      description: Targetted connections between prims.
+      apis: [openusd-cpp, openusd-python]
+      actions: [create, get, set, clear]
+    - name: stages
+      description: In-memory composed scene graphs assembled from layer stacks.
+      apis: [openusd-cpp, openusd-python]
+      actions: [create, open, export, flatten]
+    - name: variants
+      description: Named alternatives for prim content allowing switchable configurations.
+      apis: [openusd-cpp, openusd-python]
+      actions: [create, select, clear]
+
+  actions:
+    - name: create
+      description: Create a new resource (layer, stage, prim, attribute).
+      pattern: write
+    - name: get
+      description: Retrieve a resource by path or identifier.
+      pattern: read
+    - name: set
+      description: Set the value of an attribute or relationship.
+      pattern: write
+    - name: define
+      description: Define a prim with a typed schema (def specifier).
+      pattern: write
+    - name: override
+      description: Create an over prim spec for non-destructive overrides.
+      pattern: write
+    - name: traverse
+      description: Walk the prim hierarchy of a stage or layer.
+      pattern: read
+    - name: flatten
+      description: Flatten composed layers into a single layer.
+      pattern: write
+    - name: open
+      description: Open an existing layer or stage from a file path.
+      pattern: read
+    - name: save
+      description: Save a layer to disk.
+      pattern: write
+    - name: export
+      description: Export a stage or layer to a file.
+      pattern: write
+
+  schemas:
+    core:
+      - name: USDLayer
+        description: A USD layer containing prim specs, property specs, and metadata.
+        key_properties: [identifier, fileFormat, defaultPrim, startTimeCode, endTimeCode, framesPerSecond, upAxis]
+      - name: USDPrim
+        description: A named node in the USD scene hierarchy with optional type schema.
+        key_properties: [path, name, typeName, specifier, active, kind, purpose]
+    geometry:
+      - name: UsdGeomMesh
+        description: A polygonal mesh geometry prim with points, face vertex counts, and indices.
+      - name: UsdGeomXform
+        description: A transform container prim with local-to-parent transformation stack.
+      - name: UsdGeomCamera
+        description: A camera prim with projection, aperture, and clipping parameters.
+    shading:
+      - name: UsdShadeShader
+        description: A shader node in a material network with typed inputs and outputs.
+      - name: UsdShadeMaterial
+        description: A material prim binding shading networks for surface, displacement, and volume.
+
+  enums:
+    specifier:
+      - def
+      - over
+      - class
+    file_format:
+      - usda
+      - usdb
+      - usd
+      - usdz
+    up_axis:
+      - Y
+      - Z
+    kind:
+      - ""
+      - model
+      - group
+      - assembly
+      - component
+      - subcomponent
+    purpose:
+      - default
+      - render
+      - proxy
+      - guide
+    prim_type:
+      - Xform
+      - Mesh
+      - Sphere
+      - Cube
+      - Cone
+      - Capsule
+      - Cylinder
+      - Camera
+      - SkelRoot
+      - Skeleton
+      - SkelAnimation
+      - Material
+      - Shader
+      - NodeGraph
+      - DistantLight
+      - SphereLight
+      - RectLight
+      - DomeLight

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/aousd/refs/heads/main/json-schema/aousd-usd-prim-schema.json",
+  "title": "USDPrim",
+  "description": "A USD prim — a named container in the scene hierarchy that can have typed schemas, properties, metadata, and composition arcs applied to it.",
+  "type": "object",
+  "properties": {
+    "path": {"type": "string", "description": "The absolute scene path to this prim.", "example": "/World/Characters/Hero"},
+    "name": {"type": "string", "description": "The name component of the prim path.", "example": "Hero"},
+    "typeName": {"type": "string", "description": "The typed schema name applied to this prim.", "example": "Xform"},
+    "specifier": {"type": "string", "enum": ["def", "over", "class"], "description": "How this prim is introduced into the scene.", "example": "def"},
+    "active": {"type": "boolean", "description": "Whether this prim is active (inactive prims are excluded from rendering).", "example": true},
+    "hidden": {"type": "boolean", "description": "Whether this prim is hidden in interactive contexts.", "example": false},
+    "kind": {"type": "string", "enum": ["", "model", "group", "assembly", "component", "subcomponent"], "description": "The model hierarchy kind of this prim.", "example": "component"},
+    "documentation": {"type": "string", "description": "Documentation string for this prim.", "example": "The hero character asset prim."},
+    "purpose": {"type": "string", "enum": ["default", "render", "proxy", "guide"], "description": "The imaging purpose for this prim.", "example": "default"},
+    "instanceable": {"type": "boolean", "description": "Whether this prim should be treated as an instance master for instancing.", "example": false}
+  },
+  "required": ["path", "name", "specifier"]
+}

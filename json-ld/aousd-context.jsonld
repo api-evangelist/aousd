@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "usd": "https://api-evangelist.github.io/aousd/schema/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "USDLayer": "usd:USDLayer",
+    "USDPrim": "usd:USDPrim",
+    "USDProperty": "usd:USDProperty",
+
+    "identifier": {"@id": "dcterms:identifier", "@type": "xsd:string"},
+    "name": "schema:name",
+    "documentation": "schema:description",
+    "realPath": {"@id": "usd:real_path", "@type": "xsd:string"},
+    "fileFormat": {"@id": "usd:file_format", "@type": "xsd:string"},
+    "defaultPrim": {"@id": "usd:default_prim", "@type": "xsd:string"},
+    "startTimeCode": {"@id": "usd:start_time_code", "@type": "xsd:decimal"},
+    "endTimeCode": {"@id": "usd:end_time_code", "@type": "xsd:decimal"},
+    "framesPerSecond": {"@id": "usd:frames_per_second", "@type": "xsd:decimal"},
+    "metersPerUnit": {"@id": "usd:meters_per_unit", "@type": "xsd:decimal"},
+    "upAxis": {"@id": "usd:up_axis", "@type": "xsd:string"},
+    "subLayerPaths": {"@id": "usd:sub_layer_paths", "@container": "@set", "@type": "xsd:string"},
+    "path": {"@id": "usd:path", "@type": "xsd:string"},
+    "typeName": {"@id": "usd:type_name", "@type": "xsd:string"},
+    "specifier": {"@id": "usd:specifier", "@type": "xsd:string"},
+    "active": {"@id": "usd:active", "@type": "xsd:boolean"},
+    "hidden": {"@id": "usd:hidden", "@type": "xsd:boolean"},
+    "kind": {"@id": "usd:kind", "@type": "xsd:string"},
+    "purpose": {"@id": "usd:purpose", "@type": "xsd:string"},
+    "instanceable": {"@id": "usd:instanceable", "@type": "xsd:boolean"}
+  }
+}

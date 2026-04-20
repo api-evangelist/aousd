@@ -1,0 +1,12 @@
+{
+  "path": "/World/Characters/Hero",
+  "name": "Hero",
+  "typeName": "Xform",
+  "specifier": "def",
+  "active": true,
+  "hidden": false,
+  "kind": "component",
+  "documentation": "The hero character asset prim.",
+  "purpose": "default",
+  "instanceable": false
+}

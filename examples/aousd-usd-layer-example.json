@@ -1,0 +1,17 @@
+{
+  "identifier": "/assets/characters/hero/hero.usda",
+  "realPath": "/studio/assets/characters/hero/hero.usda",
+  "fileFormat": "usda",
+  "defaultPrim": "Hero",
+  "startTimeCode": 1.0,
+  "endTimeCode": 240.0,
+  "framesPerSecond": 24.0,
+  "timeCodesPerSecond": 24.0,
+  "metersPerUnit": 0.01,
+  "upAxis": "Y",
+  "documentation": "Hero character asset for production.",
+  "subLayerPaths": [
+    "/assets/characters/hero/hero_rig.usda",
+    "/assets/characters/hero/hero_model.usda"
+  ]
+}
