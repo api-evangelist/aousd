@@ -7,7 +7,7 @@ description: >-
   design, and the metaverse. OpenUSD provides a high-performance extensible
   software platform for collaboratively constructing animated 3D scenes with
   schemas for geometry, shading, lighting, physics, and volume rendering.
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - 3D
   - Interoperability
@@ -32,7 +32,7 @@ apis:
       (UsdLux), physics (UsdPhysics), volume (UsdVol), and the Shader Discovery
       and Registry (SDR). Available as an open-source library under the Apache
       2.0 license.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://openusd.org/release/api/index.html
     baseURL: https://openusd.org
     tags:
@@ -65,7 +65,7 @@ apis:
       Python bindings cover the full USD API including pxr.Usd, pxr.UsdGeom,
       pxr.UsdShade, pxr.UsdLux, pxr.UsdPhysics, pxr.Sdf, and Hydra. Used
       extensively in production pipelines at Pixar, ILM, and other studios.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://openusd.org/release/api/index.html
     baseURL: https://pypi.org/project/usd-core/
     tags:
