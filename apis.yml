@@ -76,7 +76,7 @@ apis:
     properties:
       - type: Documentation
         url: https://openusd.org/release/api/index.html
-      - type: SDK
+      - type: SDKs
         url: https://pypi.org/project/usd-core/
       - type: GitHubRepository
         url: https://github.com/PixarAnimationStudios/OpenUSD
