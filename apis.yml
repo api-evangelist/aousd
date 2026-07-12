@@ -90,6 +90,8 @@ maintainers:
     X: apievangelist
     url: https://apievangelist.com
 common:
+  - type: DomainSecurity
+    url: security/aousd-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/allianceopenusd
   - type: Portal
@@ -175,3 +177,5 @@ common:
         description: >-
           RenderMan natively reads USD scenes, making it the primary production
           renderer for USD-based feature film pipelines.
+  - url: https://aousd.org/feed/
+    type: Blog
