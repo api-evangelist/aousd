@@ -7,7 +7,19 @@ description: >-
   design, and the metaverse. OpenUSD provides a high-performance extensible
   software platform for collaboratively constructing animated 3D scenes with
   schemas for geometry, shading, lighting, physics, and volume rendering.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aousd.png
 tags:
   - 3D
   - Interoperability
