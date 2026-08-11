@@ -102,6 +102,16 @@ maintainers:
     X: apievangelist
     url: https://apievangelist.com
 common:
+  - type: IssueTracker
+    url: https://github.com/PixarAnimationStudios/OpenUSD/issues
+  - type: Releases
+    url: https://github.com/PixarAnimationStudios/OpenUSD/releases
+  - type: SecurityPolicy
+    url: https://github.com/PixarAnimationStudios/OpenUSD/blob/dev/SECURITY.md
+  - type: CodeOfConduct
+    url: https://github.com/PixarAnimationStudios/OpenUSD/blob/dev/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/PixarAnimationStudios/OpenUSD/blob/dev/CONTRIBUTING.md
   - type: DomainSecurity
     url: security/aousd-domain-security.yml
   - type: LinkedIn
