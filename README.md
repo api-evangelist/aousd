@@ -1,4 +1,4 @@
-# Alliance for OpenUSD (aousd)
+# Alliance for OpenUSD
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,124 +64,109 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-The Alliance for OpenUSD (AOUSD) is a Linux Foundation project dedicated to promoting interoperability of 3D content through Universal Scene Description (OpenUSD). Founded by Pixar, Adobe, Apple, Autodesk, and NVIDIA, AOUSD standardizes 3D content ecosystems for film, gaming, architecture, industrial design, and the metaverse.
+The Alliance for OpenUSD (AOUSD) is a Linux Foundation project dedicated to promoting interoperability of 3D content through Universal Scene Description (OpenUSD). Founded by Pixar, Adobe, Apple, Autodesk, and NVIDIA, AOUSD standardizes 3D content ecosystems for film, gaming, architecture, industrial design, and the metaverse. OpenUSD provides a high-performance extensible software platform for collaboratively constructing animated 3D scenes with schemas for geometry, shading, lighting, physics, and volume rendering.
 
-**URL:** [Visit APIs.json](https://raw.githubusercontent.com/api-evangelist/aousd/refs/heads/main/apis.yml)
+**Areas:** 3D · Interoperability · Linux Foundation · Metaverse · OpenUSD · Specification · Standards · USD · Visual Effects
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Alliance for OpenUSD on APIs.io
 
-## Tags:
+Everything profiled for Alliance for OpenUSD is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/aousd/](https://apis.io/providers/aousd/)** — or go straight to one of the APIs or properties below.
 
- - 3D, Interoperability, Linux Foundation, Metaverse, OpenUSD, Specification, Standards, USD, Visual Effects
+### APIs (2)
 
-## Timestamps
+- [OpenUSD C++ API](https://apis.io/apis/aousd/openusd-c-api/) — The OpenUSD C++ API is the primary interface for working with Universal Scene Description data. Provides access to USD core (scene composition and asset…
+- [OpenUSD Python Bindings](https://apis.io/apis/aousd/openusd-python-bindings/) — OpenUSD provides comprehensive Python bindings for all major C++ modules, enabling scripting and pipeline integration in Python-based DCC workflows. Python…
 
-- **Created:** 2026-03-16
-- **Modified:** 2026-04-19
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### OpenUSD C++ API
-The OpenUSD C++ API is the primary interface for working with Universal Scene Description data. Provides access to USD core, UsdImaging, Hydra rendering infrastructure, and schema APIs for geometry (UsdGeom), shading (UsdShade), lighting (UsdLux), physics (UsdPhysics), and volume (UsdVol). Available as open-source under the Apache 2.0 license.
+#### JSON Schema (2)
 
-**Human URL:** [https://openusd.org/release/api/index.html](https://openusd.org/release/api/index.html)
+The data models the API reads and writes.
 
-#### Tags:
+- [USDLayer](https://apis.io/schemas/aousd/aousd-usd-layer/)
+- [USDPrim](https://apis.io/schemas/aousd/aousd-usd-prim/)
 
- - 3D, C++, File Format, Library, OpenUSD, Rendering, Scene Description
+#### JSON Structure (2)
 
-#### Properties
+Data models expressed in JSON Structure.
 
-- [Documentation](https://openusd.org/release/api/index.html)
-- [APIReference](https://openusd.org/release/api/index.html)
-- [GettingStarted](https://openusd.org/release/tut_usd_tutorials.html)
-- [GitHubRepository](https://github.com/PixarAnimationStudios/OpenUSD)
-- [Glossary](https://openusd.org/release/glossary.html)
+- [Aousd Usd Layer Structure](https://apis.io/json-structure/aousd/aousd-usd-layer-structure/)
+- [Aousd Usd Prim Structure](https://apis.io/json-structure/aousd/aousd-usd-prim-structure/)
 
-### OpenUSD Python Bindings
-OpenUSD provides comprehensive Python bindings for all major C++ modules, enabling scripting and pipeline integration in Python-based DCC workflows. Covers pxr.Usd, pxr.UsdGeom, pxr.UsdShade, pxr.UsdLux, pxr.UsdPhysics, pxr.Sdf, and Hydra.
+#### JSON-LD (1)
 
-**Human URL:** [https://openusd.org/release/api/index.html](https://openusd.org/release/api/index.html)
+Linked-data contexts for the provider's vocabulary.
 
-#### Tags:
+- [Aousd Context](https://apis.io/jsonld/aousd/aousd-context/)
 
- - 3D, OpenUSD, Python, Scene Description
+#### Vocabulary (1)
 
-#### Properties
+The provider's domain terms, defined.
 
-- [Documentation](https://openusd.org/release/api/index.html)
-- [SDK](https://pypi.org/project/usd-core/)
-- [GitHubRepository](https://github.com/PixarAnimationStudios/OpenUSD)
+- [Aousd Vocabulary](https://apis.io/vocabularies/aousd/aousd-vocabulary/)
 
-## Common Properties
+#### Examples (2)
 
-- [Portal](https://aousd.org)
+Example requests and responses.
+
+- [Aousd Usd Layer Example](https://apis.io/examples/aousd/aousd-usd-layer-example/)
+- [Aousd Usd Prim Example](https://apis.io/examples/aousd/aousd-usd-prim-example/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Alliance for OpenUSD — jsonschema rules](https://apis.io/rules/aousd/aousd-jsonschema-spectral-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Aousd Domain Security](https://apis.io/security/aousd/aousd-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Aousd Plans Pricing](https://apis.io/plans/aousd/aousd-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Aousd Rate Limits](https://apis.io/rate-limits/aousd/aousd-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Aousd Finops](https://apis.io/finops/aousd/aousd-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
 - [Documentation](https://openusd.org/release/index.html)
-- [GettingStarted](https://openusd.org/release/tut_usd_tutorials.html)
-- [GitHubOrganization](https://github.com/PixarAnimationStudios)
-- [GitHubRepository](https://github.com/PixarAnimationStudios/OpenUSD)
-- [JSONSchema — USD Layer Schema](json-schema/aousd-usd-layer-schema.json)
-- [Vocabulary](vocabulary/aousd-vocabulary.yaml)
+- [Getting started](https://openusd.org/release/tut_usd_tutorials.html)
+- [Blog](https://aousd.org/feed/)
+- [GitHub](https://github.com/PixarAnimationStudios)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Scene Composition | USD's composition arcs (references, payloads, variants, instancing, and specializes) enable non-destructive scene assembly from multiple asset layers. |
-| Schema-Driven Extensibility | OpenUSD's schema system allows studios and tool vendors to extend the core specification with domain-specific schemas. |
-| Hydra Rendering Architecture | The Hydra rendering delegate architecture enables pluggable render backends including Storm, Arnold, RenderMan, and others. |
-| Multiple File Formats | OpenUSD supports ASCII (.usda), binary (.usdb), and packaged archive (.usdz) file formats. |
-| Asset Resolution | The ArResolver system enables customizable asset path resolution for integrating USD with studio asset management systems. |
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
 
-## Use Cases
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
 
-| Name | Description |
-|------|-------------|
-| Film and Visual Effects Production | Exchange complex animated scenes between DCC tools and render farms using OpenUSD as the common format. |
-| Game Development | Use OpenUSD as an interchange format between game engines like Unreal Engine and Unity and DCC content creation tools. |
-| Architecture and Design Visualization | Share 3D building models, materials, and lighting between architectural design tools and visualization platforms. |
-| Metaverse and XR | Enable interoperability of 3D assets across XR platforms, spatial computing devices, and virtual world applications. |
-| Industrial Digital Twins | Represent complex mechanical assemblies for industrial digital twin applications using USD schemas. |
+## How this profile is made
 
-## Integrations
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-| Name | Description |
-|------|-------------|
-| Autodesk Maya / 3ds Max | Import and export USD files via Autodesk's official USD plugins for Maya and 3ds Max. |
-| SideFX Houdini | Native USD integration in Houdini via LOPs (Layout Object Primitives) for creating and editing USD scenes. |
-| Apple Reality Composer Pro | Apple's spatial computing tools use .usdz as the primary format for AR and visionOS content. |
-| NVIDIA Omniverse | NVIDIA Omniverse is built on OpenUSD, using it as the foundation for collaborative 3D design and digital twin workflows. |
-| Pixar RenderMan | RenderMan natively reads USD scenes, making it the primary production renderer for USD-based feature film pipelines. |
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Alliance for OpenUSD: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-## Artifacts
+## Open an issue
 
-Machine-readable API specifications organized by format.
-
-### JSON Schema
-
-- [USD Layer Schema](json-schema/aousd-usd-layer-schema.json)
-- [USD Prim Schema](json-schema/aousd-usd-prim-schema.json)
-
-### JSON Structure
-
-- [USD Layer Structure](json-structure/aousd-usd-layer-structure.json)
-- [USD Prim Structure](json-structure/aousd-usd-prim-structure.json)
-
-### JSON-LD
-
-- [OpenUSD Context](json-ld/aousd-context.jsonld)
-
-### Examples
-
-- [USD Layer Example](examples/aousd-usd-layer-example.json)
-- [USD Prim Example](examples/aousd-usd-prim-example.json)
-
-## Vocabulary
-
-- [Alliance for OpenUSD Vocabulary](vocabulary/aousd-vocabulary.yaml) — Unified taxonomy mapping 6 resources, 10 actions, and OpenUSD schema domains
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** info@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/aousd/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
